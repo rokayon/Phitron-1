@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/logo.png" alt="Bootstrap" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 50%;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="resume.pdf" class="btn btn-primary">
+                                Resume <i class="fa-solid fa-download"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="d-flex justify-content-between align-items-center mt-30" style="margin-top: 30px;">
+            <div class="row d-flex justify-content-between align-items-center ">
+                <div class="text-section col-8" style="margin-right: 20px;">
+                    <h1 class="display-1 text-primary">HI !</h1>
+                    <h2 class="text-bold text-info">I'M Rokonozzaman Ayon</h2>
+                    <p class="lead text-secondary">Web Developer || Python Developer || Programmer</p>
+                    <p>I am a passionate JavaScript developer that is familiar with a few front-end and back-end technologies. I am mostly a MERN developer, but I am also familiar with basic PHP and MySQL.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="https://github.com">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://youtube.com">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="resume.pdf" class="btn btn-primary">
+                            Resume <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="image-section col-3">
+                    <img src="images\pic.jpg" alt="Profile Image" class="img-fluid rounded prson-img" style="max-width: 300px; height:300px;border-radius: 300px;">
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="service-container mt-5 container bg-body-tertiary">
+            <h1 class="text-center m-5">Portfolio</h1>
+            <div class="row mt-5">
+                <div class="d-flex justify-content-between align-items-center gap-5">
+                    <div id="carouselExample1" class="carousel slide col-md-6">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="Project Image 1">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="projects-img/Travel-Search.png" class="d-block w-100" alt="Project Image 1">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Traffic: A Smart Traffic Management Application</h5>
+                            <p class="card-text">
+                                A dynamic and intuitive task management tool, Traffic was created to improve productivity by streamlining daily tasks. This project makes use of contemporary web development tools to offer a productive platform for task organization, deadline setting, and progress monitoring. 
+                            </p>
+                            <div class="d-flex gap-2 mb-3">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-primary">Firebase</span>
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-primary">CSS</span>
+                                <span class="badge bg-primary">Node</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="d-flex justify-content-between align-items-center gap-5 mt-5">
+
+                    <div id="carouselExample2" class="carousel slide col-md-6">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="Project Image 1">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="Project Image 1">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Traffic: A Smart Traffic Management Application</h5>
+                            <p class="card-text">
+                                A dynamic and intuitive task management tool, Traffic was created to improve productivity by streamlining daily tasks. This project makes use of contemporary web development tools to offer a productive platform for task organization, deadline setting, and progress monitoring. 
+                            </p>
+                            <div class="d-flex gap-2 mb-3">
+                                <span class="badge bg-3>Familiar:</h3>
+                    <div>
+                        <span class="badge bg-warning text-dark">C++</span>
+                        <span class="badge bg-primary">Python</span>
+                        <span class="badge bg-primary">Spring Boot</span>
+                        <span class="badge bg-primary">Networking</span>
+                        <span class="badge bg-primary">React</span>
+                                <span class="badge bg-primary">Firebase</span>
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-primary">CSS</span>
+                                <span class="badge bg-primary">Node</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </header>
+    
+    <main>
+        <main class="container-fluid py-5 mt-4">
+            <div class="d-flex flex-wrap">
+                <!-- Expertise and Education Section -->
+                <section class="container-fluid bs-secondary-bg-rgb text-dark py-5" style="flex: 1; margin-right: 10px;">
+                    <div class="d-flex flex-wrap gap-8 mb-3">
+                        <div class="info">
+                            <div class="mb-5">
+                                <h3 class="text-dark">Expertise</h3>
+                                <div>
+                                    <span class="badge bg-primary">React.js</span>
+                                    <span class="badge bg-primary">JavaScript</span>
+                                    <span class="badge bg-primary">Node.js</span>
+                                    <span class="badge bg-primary">Firebase</span>
+                                    <span class="badge bg-primary">Express.js</span>
+                                    <span class="badge bg-primary">HTML</span>
+                                    <span class="badge bg-primary">Bootstrap</span>
+                                    <span class="badge bg-primary">MongoDB</span>
+                                </div>
+                            </div>
+        
+                            <div class="mb-5">
+                                <h3>Comfortable</h3>
+                                <div>
+                                    <span class="badge bg-primary">SQL</span>
+                                    <span class="badge bg-primary">Redux</span>
+                                    <span class="badge bg-primary">Socket.io</span>
+                                    <span class="badge bg-primary">AWS</span>
+                                    <span class="badge bg-primary">Docker</span>
+                                    <span class="badge bg-primary">TypeScript</span>
+                                    <span class="badge bg-primary">Next.js</span>
+                                </div>
+                            </div>
+        
+                            <div class="mb-5">
+                                <h3>Familiar</h3>
+                                <div>
+                                    <span class="badge bg-primary">C++</span>
+                                    <span class="badge bg-primary">Python</span>
+                                    <span class="badge bg-primary">Spring Boot</span>
+                                    <span class="badge bg-primary">Networking</span>
+                                </div>
+                            </div>
+        
+                            <div class="mb-5">
+                                <h3>Tools</h3>
+                                <div>
+                                    <span class="badge bg-primary">VS Code</span>
+                                    <span class="badge bg-primary">JIRA</span>
+                                    <span class="badge bg-primary">Trello</span>
+                                    <span class="badge bg-primary">Git</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center flex-column text-center">
+                            <h3 class="section-title">My Education</h3>
+                            <p>B.Sc in Computer Science and Engineering,<br>
+                                Daffodil International University (Dhaka, Bangladesh)</p>
+                            <p>2021-2025</p>
+                        </div>
+                    </div>
+                </section>
+    </main>
+    
+    <section class="container-fluid bg-body-tertiary text-dark py-5 mt-20px">
+        <div class="container">
+            <h1 class="text-center mb-4">Contact with Me</h1>
+            <div class="d-flex justify-content-center">
+                <form class="bg-dark text-light p-4 rounded shadow-lg" style="width: 400px;">
+                    <div class="mb-3">
+                        <input type="text" class="form-control bg-secondary text-light" placeholder="Please type your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control bg-secondary text-light" placeholder="Please type your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control bg-secondary text-light" rows="4" placeholder="Type here message" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="container-fluid bg-expand-lg bg-gray">
+        <div class="text-center">
+            <h3>Copyright © 2025 | Rokonozzaman Ayon</h3>
+            <h4>Dhaka, Bangladesh</h4>
+            <div class="d-flex justify-content-center gap-3 mt-3">
+                <a href="#" class="text-light">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+                <a href="#" class="text-light">
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                </a>
+                <a href="#" class="text-light">
+                    <i class="fa-brands fa-youtube fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

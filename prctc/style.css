@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header .input-group {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar {
+    height: 50px;
+}
+
+#search-btn {
+    height: 50px;
+}
+
+.card {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#product-container .no-results {
+    font-size: 1.5rem;
+    color: #dc3545; 
+    text-align: center;
+    margin-top: 20px;
+}
